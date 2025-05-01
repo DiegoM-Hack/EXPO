@@ -10,15 +10,13 @@ public class Jugador {
         this.posicion = posicion;
     }
 
-
-
+    // Méodo para actualizar la posicion
     public void actualizarPosicion(String nuevaPosicion) {
         System.out.println("Ingrese la nueva posicion: ");
         posicion = nuevaPosicion;
 
-
     }
-
+    // Méodo para mostrar toda la información
     public void mostrar() {
         System.out.println("El jugador: " + nombre);
         System.out.println("Con numero de camisa: " + numeroCamisa);

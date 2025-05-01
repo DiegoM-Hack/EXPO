@@ -25,6 +25,7 @@ public class Ciclista {
 
     // Método para calcular el promedio mensual de kilómetros
     public double promedioMensual() {
+
         return kilometrosRecorridos / 12;
     }
 }
